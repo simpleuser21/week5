@@ -16,4 +16,4 @@ app.post('/', (req, res) =>
         res.render('hello.ejs', {username: username})
     })
 
-app.listen(port, ()=> console.log('listen port:${port}'))
+app.listen(port, ()=> console.log(`listen port: ${port}`))
